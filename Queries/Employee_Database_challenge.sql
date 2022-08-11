@@ -14,21 +14,21 @@ WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY e.emp_no ASC;
 
 -- Use Dictinct with Orderby to remove duplicate rows
-SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
-	rt.first_name,
-	rt.last_name,
-	rt.title
+SELECT DISTINCT ON (emp_no) emp_no,
+	first_name,
+	last_name,
+	title
 INTO unique_titles
-FROM retirement_titles AS rt
-WHERE rt.to_date = ('9999-01-01')
-ORDER BY rt.emp_no ASC, rt.to_date DESC;
+FROM retirement_titles
+WHERE to_date = ('9999-01-01')
+ORDER BY emp_no ASC, to_date DESC;
 
 -- Employee count by title
-SELECT COUNT(ut.emp_no), ut.title
+SELECT COUNT(emp_no), title
 INTO title_count
-FROM unique_titles as ut
-GROUP BY ut.title
-ORDER BY ut.count DESC;
+FROM unique_titles
+GROUP BY title
+ORDER BY count DESC;
 
 
 --Deliverable 2

@@ -19,7 +19,12 @@ The company will be having many employees heading into retirement in the nearing
 ### Mentorship Eligibility End
 ![mentorship_eligibility_end.png](/Images/mentorship_eligibility_end.png)
 
-: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+**Key Takeaways**
+* Little over 70,000 employees will be retiring soon.
+* Majority of the employees retiring will be Senior Engineers and Senior Staff, contributing about 50,000 retiring employees together
+* The lowest contributing titles in count for the Retiring Titles DataFrame are Assistant Engineers, with 1090 employees, and Managers, with 2 employees.
+* There are an estimate of 1,550 employees that are able to had into the mentorship program.
+
 
 
 # Summary

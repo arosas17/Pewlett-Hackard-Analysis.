@@ -19,3 +19,14 @@ The company will be having many employees heading into retirement in the nearing
 : Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+
+
+retiring  
+
+table for employees who are born between January 1, 1952 and December 31, 1955.
+
+
+mentorship elgibility
+
+ birth dates are between January 1, 1965 and December 31, 1965.

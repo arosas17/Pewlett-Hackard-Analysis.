@@ -30,6 +30,8 @@ The company will be having many employees heading into retirement in the nearing
 # Summary
 Looking at the tables above, we determine little over 70,000 employees will be retiring soon over the course of four years (this is an estimate base on the birth years used to decide who would be retireing). Assuming that the employees retire at approxamately the same rate over the course of the years, the company would be looking to replace about 17,500 retiring employees per year. This is a rather large amount of employees that will be retiring. However, looking into the mentorship elegibility, it is discoraging to see that there are only about 1,549 employees that would meet the crateria for the mentorship program. This leaves a massive diffrence between the retirees and the possible replacements. 
 
+To add to this information, a new table is shown below titled "Mentorship Eligibility Titles", presenting the count of titles within the mentorship eleigible employees. This spread tells that the count is similar to the reirement title count in a sense that staff and engineer positions have the biggest title count but in diffrent orders compared to senior and mid level positions. It also shows that the biggest diffrence in retiree titles and mentorship titles are with engineering and staff positions, showing that the retiring titles of techniques leaders, assistant engineers, and managers are in less critical states.
+
 
 
 ### Mentorship Eligibility Titles

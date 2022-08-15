@@ -50,3 +50,32 @@ WHERE (e.birth_date BETWEEN '1965-01-01'
 	   AND '1965-12-31') 
 	   AND de.to_date = ('9999-01-01')
 ORDER BY e.emp_no ASC;
+
+
+
+--Deliverable 3
+
+-- Employee count by title
+SELECT COUNT(emp_no), title
+INTO title_count_mentorship
+FROM mentorship_eligibilty
+GROUP BY title
+ORDER BY count DESC;
+
+-- Mergeing Charts and removing duplicates
+SELECT DISTINCT ON(ut.emp_no) COUNT(ut.emp_no),
+	de.dept_no,
+	ut.title
+INTO dept_count_dupicates
+FROM unique_titles AS ut
+INNER JOIN dept_employees AS de
+ON ut.emp_no = de.emp_no
+GROUP BY dept_no, title, ut.emp_no
+ORDER BY ut.emp_no DESC;
+
+-- title count by department by title
+SELECT COUNT(title), dept_no, title
+INTO dept_title_count
+FROM dept_count_dupicates
+GROUP BY dept_no, title
+ORDER BY count DESC;

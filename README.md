@@ -1,10 +1,4 @@
-# Pewlett-Hackard-Analysis
-
-
-For this part of the Challenge, you’ll write a report to help the manager prepare for the upcoming "silver tsunami."
-
-The analysis should contain the following:
-
+# Pewlett-Hackard-Analysi
 # Overview
 
 of the analysis: Explain the purpose of this analysis.
@@ -30,26 +24,19 @@ The company will be having many employees heading into retirement in the nearing
 # Summary
 Looking at the tables above, we determine little over 70,000 employees will be retiring soon over the course of four years (this is an estimate base on the birth years used to decide who would be retireing). Assuming that the employees retire at approxamately the same rate over the course of the years, the company would be looking to replace about 17,500 retiring employees per year. This is a rather large amount of employees that will be retiring. However, looking into the mentorship elegibility, it is discoraging to see that there are only about 1,549 employees that would meet the crateria for the mentorship program. This leaves a massive diffrence between the retirees and the possible replacements. 
 
-To add to this information, a new table is shown below titled "Mentorship Eligibility Titles", presenting the count of titles within the mentorship eleigible employees. This spread tells that the count is similar to the reirement title count in a sense that staff and engineer positions have the biggest title count but in diffrent orders compared to senior and mid level positions. It also shows that the biggest diffrence in retiree titles and mentorship titles are with engineering and staff positions, showing that the retiring titles of techniques leaders, assistant engineers, and managers are in less critical states.
 
+In addition to this, comes some uncertainty of how each department would be affected with the upcoming retirements. In the table below, titled "Retiring Titles per Department," shows a table presenting the count of titles that will be retiring and their respective department, with a smaller table alongside it showing the department numbers and their names. From this table, it is determined that department numbers 4 and 5 (production and development) will be the two departments that will be most affected, considering they contain the most engineers/Senior engineers, some of the top titles for the retirement in the company in the nearing future. Another one that is concerning is department number 7 (Sales), where a lot of the employees are Senior Staff are retiring as well. With all this considered, the company show focus their efforts on obtaining employees for departments: production, development, and sales.
+
+
+To add on to this information, a table is shown below titled "Mentorship Eligibility Titles", presenting the count of titles within the mentorship eleigible employees. This spread tells that the count is similar to the reirement title count in a sense that staff and engineer positions have the biggest title count but in diffrent orders compared to senior and mid level positions. It also shows that the biggest diffrence in retiree titles and mentorship titles are with engineering and staff positions, showing that the retiring titles of techniques leaders, assistant engineers, and managers are in less critical states.
+
+
+
+
+### Retiring Titles per Department (Shortened)
+![retiring_titles_per_dept](/Images/Retiring_titles_per_department.png) ![dept_name](/Images/dept_no_name.png)
 
 
 ### Mentorship Eligibility Titles
 ![mentorship_eligibility_end.png](/Images/mentorship_titles.png)
 
-the people that will be retiring soon are poeple who are born between January 1, 1952 and December 31, 1955. This is how 
-
-: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-
-
-
-retiring  
-
-table for employees who are born between January 1, 1952 and December 31, 1955.
-
-
-mentorship elgibility
-
- birth dates are between January 1, 1965 and December 31, 1965.

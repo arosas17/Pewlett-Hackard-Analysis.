@@ -24,8 +24,8 @@ WHERE to_date = ('9999-01-01')
 ORDER BY emp_no ASC, to_date DESC;
 
 -- Employee count by title
-SELECT COUNT(emp_no), title
-INTO title_count
+SELECT COUNT(title), title
+-- INTO title_count
 FROM unique_titles
 GROUP BY title
 ORDER BY count DESC;
@@ -63,12 +63,12 @@ GROUP BY title
 ORDER BY count DESC;
 
 -- Mergeing Charts and removing duplicates
-SELECT DISTINCT ON(ut.emp_no) COUNT(ut.emp_no),
+SELECT DISTINCT ON(ut.emp_no) COUNT(ut.title),
 	de.dept_no,
 	ut.title
 INTO dept_count_dupicates
 FROM unique_titles AS ut
-INNER JOIN dept_employees AS de
+LEFT JOIN dept_employees AS de
 ON ut.emp_no = de.emp_no
 GROUP BY dept_no, title, ut.emp_no
 ORDER BY ut.emp_no DESC;

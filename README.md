@@ -1,4 +1,4 @@
-# Pewlett-Hackard-Analysi
+# Pewlett-Hackard-Analysis
 # Overview
 
 of the analysis: Explain the purpose of this analysis.

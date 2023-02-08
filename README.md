@@ -3,12 +3,12 @@
 ## Goals and Findings
 The purpose of this data analysis is to see if the company is on track to keep itself prepared for future retirements. Through this data, it is determined that 70,000 employees will be retiring over a four year period with about 50,000 being Senior Engineers and Senior Staff but only about 1,550 employees ready for the mentorship program to replace the retiring employees.
 
-# Overview
+## Overview
 
 
 The company will be having many employees heading into retirement in the nearing future and the company wants to future proof this company so that there is not a lack of employment within the company. The manager has provided a task to write an analysis of the number of retiring employees based on their title and identify employees who will be able to participate for a mentorship program to assist in filling in some of the future retirees' positions.
 
-# Results
+## Results
 
 ### Retiring titles
 ![retiring_titles.png](/Images/retiring_titles.png)
@@ -24,7 +24,7 @@ The company will be having many employees heading into retirement in the nearing
 
 
 
-# Summary
+## Summary
 Looking at the tables above, we determine little over 70,000 employees will be retiring soon over the course of four years (this is an estimate base on the birth years used to decide who would be retireing). Assuming that the employees retire at approxamately the same rate over the course of the years, the company would be looking to replace about 17,500 retiring employees per year. This is a rather large amount of employees that will be retiring. However, looking into the mentorship elegibility, it is discoraging to see that there are only about 1,549 employees that would meet the crateria for the mentorship program. This leaves a massive diffrence between the retirees and the possible replacements. 
 
 

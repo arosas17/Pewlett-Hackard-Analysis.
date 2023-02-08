@@ -1,4 +1,8 @@
 # Pewlett-Hackard-Analysis
+
+## Goals and Findings
+The purpose of this data analysis is to see if the company is on track to keep itself prepared for future retirements. Through this data, it is determined that 70,000 employees will be retiring soon with about 50,000 being Senior Engineers and Senior Staff but only about 1,550 employees ready for the mentorship program to replace the retiring employees.
+
 # Overview
 
 
